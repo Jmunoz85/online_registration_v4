@@ -109,15 +109,8 @@ select#state {
 input#zipcode {
   max-width: 50%;
 }
+
 /*Class Selectors*/
-.signup_form .inline_field input,
-.signup_form .inline_field label {
-  display: inline-block;
-  height: 10px;
-}
-.signup_form .inline_field input {
-  width: 30px;
-}
 ::placeholder {
   text-align: right;
   text-transform: capitalize;
@@ -177,7 +170,16 @@ input:focus {
   margin-top: 25px;
   padding-bottom: 75px;
 }
-
+input[type="checkbox"]{
+  display: inline-block;
+  height: 13px;
+  width: 30px;
+}
+input[type="radio"]{
+  display: inline-block;
+  height: 13px;
+  width: 30px;
+}
 @media (min-width: 768px) {
   .signup_form label {
     display: inline-block;
