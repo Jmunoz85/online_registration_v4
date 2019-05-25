@@ -76,6 +76,9 @@ select {
 textarea {
   height: 80px;
   border: none;
+  resize: vertical;
+  min-height: 50px;
+  max-height: 150px;
 }
 
 label {
