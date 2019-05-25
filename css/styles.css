@@ -27,6 +27,10 @@ hr {
 	margin-right: 10px;
 }
 
+form {
+  margin-top: 50px;
+}
+
 h1 {
   color: #fff;
   text-align: center;
@@ -111,6 +115,9 @@ input#zipcode {
   padding-bottom: 17px;
 
 }
+.newsletter {
+  margin-top: 30px;
+}
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -118,11 +125,6 @@ input#zipcode {
 .double {
   border: 2px solid black;
   margin-bottom: 0;
-}
-.container1,
-.container2 {
-  display: flex;
-  flex-direction: column;
 }
 
 .offer {
