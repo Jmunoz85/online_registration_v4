@@ -161,20 +161,9 @@ input#zipcode {
 }
 /* Media Queries */
 @media (min-width: 768px) {
-  .fieldbox {
-    display: flex;
-  }
-  .fieldbox label {
-    min-width: 200px;
-  }
-  .fieldbox input {
-    width: 100%;
-    margin: 10px;
-  }
-  .fieldbox select {
-    margin: 10px;
-  }
-  input#zipcode {
-    width: 25%;
+  .container1 input,label {
+    display: inline-block;
+    height: 10px;
+    width: 20%;
   }
 }
