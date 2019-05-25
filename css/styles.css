@@ -54,10 +54,17 @@ legend {
   font-size: 24px;
   font-family: serif;
 }
-
+input {
+  color: #666;
+}
+input,
+textarea {
+  padding: 10px;
+}
 input,
 textarea,
 select {
+  box-sizing: border-box;
   height: 40px;
   width: 100%;
   background-color: #eff0f1;
@@ -90,6 +97,7 @@ button {
   padding: 18px 35px;
   border-radius: 5px;
 }
+/*Attrribute Selector*/
 
 select#state {
   color: #babbbc;
