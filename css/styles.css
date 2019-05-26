@@ -176,7 +176,7 @@ input:focus {
 
 .newsletter input,label{
   display: inline-block;
-  width: auto;
+  width: auto%;
   height: 10px;
   margin: 0 auto;
 }
@@ -184,6 +184,7 @@ input:focus {
   display: inline-block;
   width: auto;
   margin: 0 auto;
+
 }
 
 @media (min-width: 768px) {
@@ -195,17 +196,6 @@ input:focus {
   .signup_form select {
     display: inline-block;
     width: 74%;
-  }
-  .newsletter input,label{
-    display: inline-block;
-    width: auto;
-    height: 10px;
-    margin: 0 auto;
-  }
-  .newsletter label {
-    display: inline-block;
-    width: auto;
-    margin: 0 auto;
   }
   input#zipcode {
     max-width: 25%;
