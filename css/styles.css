@@ -1,3 +1,19 @@
+Skip to content
+
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+
+@Jmunoz85
+Code  Issues 0  Pull requests 0  Projects 0  Wiki  Security  Pulse  Community
+online_registration_v4/css/styles.css
+@Jmunoz85 Jmunoz85 Update styles.css
+f469fb7 32 minutes ago
+214 lines (193 sloc)  3.01 KB
+
 
 body {
   min-height: 100vh;
@@ -174,17 +190,16 @@ input:focus {
   padding-bottom: 75px;
 }
 
-.newsletter input,label{
+.newsletter input {
   display: inline-block;
-  width: auto%;
+  width: 74%;
   height: 10px;
   margin: 0 auto;
 }
 .newsletter label {
   display: inline-block;
-  width: auto;
+  width: 25%;
   margin: 0 auto;
-
 }
 
 @media (min-width: 768px) {
@@ -196,6 +211,17 @@ input:focus {
   .signup_form select {
     display: inline-block;
     width: 74%;
+  }
+  .newsletter input,label{
+    display: inline-block;
+    width: auto;
+    height: 10px;
+    margin: 0 auto;
+  }
+  .newsletter label {
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
   }
   input#zipcode {
     max-width: 25%;
