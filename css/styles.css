@@ -124,6 +124,7 @@ input#zipcode {
   padding-right: 10px;
   padding-bottom: 17px;
 }
+input:focus,
 input:focus {
   background-color: #fafafa;
   outline: none;
