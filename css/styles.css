@@ -127,6 +127,8 @@ select#state {
 input#zipcode {
   display: block;
   max-width: 50%;
+  margin: inherit;
+  margin-top: 10px;
 }
 
 /*Class Selectors*/
@@ -213,7 +215,7 @@ input:focus {
     display: inline-block;
     width: 74%;
   }
-  .newsletter input,label{
+  .newsletter input{
     display: inline-block;
     width: auto;
     height: 10px;
@@ -226,5 +228,6 @@ input:focus {
   }
   input#zipcode {
     max-width: 25%;
+    display: inline-block;
   }
 }
