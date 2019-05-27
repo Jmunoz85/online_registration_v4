@@ -125,7 +125,7 @@ input#zipcode {
   padding-bottom: 17px;
 }
 input:focus,
-input:focus {
+textarea:focus {
   background-color: #fafafa;
   outline: none;
   border: 3px solid #517b9a;
