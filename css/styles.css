@@ -188,9 +188,6 @@ input:focus {
   width: 74%;
   margin: 0 auto;
 }
-.newsletter input, label {
-  display: inline-block;
-}
 
 @media (min-width: 768px) {
   .signup_form label {
