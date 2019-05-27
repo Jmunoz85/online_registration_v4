@@ -179,14 +179,17 @@ input:focus {
 
 .newsletter input {
   display: inline-block;
-  width: auto;
+  width: 25%;
   height: 10px;
   margin: 0 auto;
 }
 .newsletter label {
   display: inline-block;
-  width: auto;
+  width: 74%;
   margin: 0 auto;
+}
+.newsletter input, label {
+  display: inline-block;
 }
 
 @media (min-width: 768px) {
