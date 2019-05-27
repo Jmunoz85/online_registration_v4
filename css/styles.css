@@ -176,17 +176,19 @@ input:focus {
   margin-top: 25px;
   padding-bottom: 75px;
 }
-
+.newsletter {
+  display: inline-block;
+}
 .newsletter input {
   display: inline-block;
-  width: 25%;
-  height: 10px;
-  margin: 0 auto;
+   height: 10px;
+   width: 25%;
+   margin: 0;
 }
 .newsletter label {
   display: inline-block;
-  width: 74%;
-  margin: 0 auto;
+  width: 75%;
+
 }
 
 @media (min-width: 768px) {
