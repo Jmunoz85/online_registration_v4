@@ -199,17 +199,7 @@ input:focus {
     display: inline-block;
     width: 74%;
   }
-  .newsletter input{
-    display: inline-block;
-    width: auto;
-    height: 10px;
-    margin: 0 auto;
-  }
-  .newsletter label {
-    display: inline-block;
-    width: auto;
-    margin: 0 auto;
-  }
+
   input#zipcode {
     max-width: 25%;
     display: inline-block;
