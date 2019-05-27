@@ -176,19 +176,15 @@ input:focus {
   margin-top: 25px;
   padding-bottom: 75px;
 }
-.newsletter {
-  display: inline-block;
-}
 .newsletter input {
   display: inline-block;
    height: 10px;
-   width: 25%;
+   width: auto;
    margin: 0;
 }
 .newsletter label {
   display: inline-block;
-  width: 75%;
-
+  width: 90%;
 }
 
 @media (min-width: 768px) {
@@ -201,7 +197,6 @@ input:focus {
     display: inline-block;
     width: 74%;
   }
-
   input#zipcode {
     max-width: 25%;
     display: inline-block;
