@@ -36,7 +36,7 @@ h1 {
   color: #fff;
   text-align: center;
   background: #2a2b2b;
-  padding-top: 30px;
+  padding-top: 31px;
   padding-bottom: 30px;
   max-width: 100%;
   margin:auto;
@@ -193,7 +193,8 @@ textarea:focus {
   display: inline-block;
   width: 90%;
 }
-.signup_form input[type="checkbox"],.signup_form input[type="radio"]{
+.signup_form input[type="checkbox"],
+.signup_form input[type="radio"]{
   width: 20px;
 }
 @media (min-width: 768px) {
